@@ -1,0 +1,38 @@
+body {
+    background-color: white;
+}
+
+main div {
+    height: 120px;
+}
+
+.main__standard {
+    /*
+    alignement des trois articles
+    */
+}
+.main__standard h2 {
+
+}
+
+@media(max-width:500px) {
+    /*
+    Point de rupture téléphone
+    */
+    
+}
+
+@media(max-width:900px) {
+    /*
+    Point de rupture tablette
+    */
+    
+}
+
+.night__mode {
+    background-color: black;
+    color: white;
+}
+.night__mode__title {
+    
+}
