@@ -18,29 +18,32 @@
 </head>
 <body>
     <header class="header__main">
-        <ul>
-            <li>
-                <ul>
-                    <li>météo</li>
-                    <li>JEU. 26 SEPT</li>
-                    <li>12°C à  Paris</li>
-                </ul>
-            </li>
-            <li> <h1>SILVER BIRD<br/> <span>watch it fly</span> </h1></li>
-            <li>
-                <ul>
-                    <li>A PROPOS</li>
-                    <li>RECHERCHE</li>
-                    <li>insta</li>
-                </ul>
-            </li>
-        </ul>
-        <ul>
-            <li><a href="#montres">MONTRES</a></li>
-            <li><a href="#automobile">AUTOMOBILE</a></li>
-            <li><a href="#lifestyle">LIFESTYLE</a></li>
-            <li><a href="#sport">SPORTS</a></li>
-        </ul>
+        <nav class="header__nav">
+            <ul>
+                <li>
+                    <ul>
+                        <li>météo</li>
+                        <li>JEU. 26 SEPT</li>
+                        <li>12°C à  Paris</li>
+                    </ul>
+                </li>
+                <li> <h1>SILVER BIRD<br/> <span>watch it fly</span> </h1></li>
+                <li>
+                    <ul>
+                        <li>A PROPOS</li>
+                        <li>RECHERCHE</li>
+                        <li>insta</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li><a href="#montres">MONTRES</a></li>
+                <li><a href="#automobile">AUTOMOBILE</a></li>
+                <li><a href="#lifestyle">LIFESTYLE</a></li>
+                <li><a href="#sport">SPORTS</a></li>
+            </ul>
+        </nav>
+        
     </header>
     <main>
         <div class="main__top__div">
@@ -203,9 +206,11 @@
         </div>
     </main>
     <footer>
-        <ul>
-            <li></li>
-            <li>
+        <div class="footer__main">
+            <div class="footer__main__logo row">
+                <img src="./assets/img/LOGOTYPE2.png" alt="">
+            </div>
+            <div class="footer__main__cat row">
                 <h4>Catégories</h4>
                 <ul>
                     <li>MONTRES</li>
@@ -213,22 +218,30 @@
                     <li>LIFESTYLE</li>
                     <li>SPORT</li>
                 </ul>
-            </li>
-            <li>
+            </div>
+            <div class="footer__main__about row">
                 <h4>A propos</h4>
                 <ul>
                     <li>NOS PLUMES</li>
                     <li>CONTACT</li>
                     <li>ANNONCEURS</li>
                 </ul>
-            </li>
-            <li>Réjoignez la newsletter <br/> <button>RESTER AU COURANT</button></li>
-            <li>Suivez-nous</li>
-        </ul>
-        <ul>
-            <li>MENTIONS LEGALES & C.G.U</li>
-            <li>2019 SILVER BIRD</li>
-        </ul>
+            </div>
+            <div class="footer__main__news row">
+                Réjoignez la newsletter <br/> <button>RESTER AU COURANT</button>
+            </div>
+            <div class="footer__main__follow row">
+                Suivez-nous
+            </div>
+        </div>
+        <div class="footer__line"></div>
+        <div class="footer__line"></div>
+        <div class="footer__legal">
+            <ul>
+                <li>MENTIONS LEGALES & C.G.U</li>
+                <li>2019 SILVER BIRD</li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
