@@ -26,6 +26,15 @@
 /*
     Général
 */
+line {
+    /*Les couleurs*/
+    background-color: #e0e0e0;
+    /*Les tailles*/
+    height: 1px;
+    margin-bottom: 4px;
+    /*Les positions*/
+    /*Autre*/
+}
 body{
     margin: 0px;
     font-family: HK-Grotesk-Regular;
@@ -65,53 +74,12 @@ div {
 /*
     Header
 */
-.header__main {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
-nav, 
 
-.header__nav {
-    position: relative;
-    height: auto;
-    background-color: white;
-    padding: 1%;
-    width: 100%;
-    box-shadow: ;
-}
 
 /*
     Main
 */
-main div {
-    height: 120px;
-    margin-right: 0.5%;
-    margin-left: 0.5%;
-}
 
-.second .first {
-    background-color: white;
-    width: 50px;
-    z-index: 2;
-}
-
-.main__standard {
-    /*
-    alignement des trois articles
-    */
-    height: 393px;
-    position: relative;
-    width: 411px;
-}
-.main__standard h2 {
-
-}
-.main_img {
-    width: 411px;
-    height: 265px;
-}
 
 /*
     FOOTER
@@ -126,15 +94,6 @@ footer {
 .footer__main {
     /*Rien à mettre dedans, pour l'instant*/
 
-}
-.footer__line {
-    /*Les couleurs*/
-    background-color: #e0e0e0;
-    /*Les tailles*/
-    height: 1px;
-    margin-bottom: 4px;
-    /*Les positions*/
-    /*Autre*/
 }
 .footer__legal {
     /*Les couleurs*/
@@ -156,21 +115,6 @@ footer {
     box-sizing: border-box;
     padding: 0 .75rem;
     min-height: 1px;
-}
-.footer__main__logo {
-    
-}
-.footer__main__cat {
-    
-}
-.footer__main__about {
-    
-}
-.footer__main__news {
-    
-}
-.footer__main__follow {
-    
 }
 
 /*
@@ -194,10 +138,3 @@ footer {
 /* 
     Autre
 */
-.night__mode {
-    background-color: black;
-    color: white;
-}
-.night__mode__title {
-    
-}
