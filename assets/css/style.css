@@ -1,4 +1,20 @@
 /*
+    Général
+*/
+body {
+    margin: 0px;
+    font-family: HK-Grotesk-Regular;
+}
+article, aside, footer, header, nav, section, main {
+    display: block;
+    box-sizing: inherit;
+}
+div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*
     Police
 */
 /*@font-face {
@@ -22,9 +38,36 @@
     font-family: HK-Grotesk-Regular;
     src: url('/assets/HKgrotesque/HKGrotesk-Regular.otf') format('opentype');
 }
+p {
+    font-family: Libre_Baskerville;
+    color: #5D534F;
+}
+h1 {
+
+}
+h2 {
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #003B5C;
+    border: 1px #E5DBD1 solid;
+    padding: 1%;
+}
+h3 {
+    font-size: 22px;
+    color: #003B5C;
+}
+h4 {
+
+}
+a {
+    color: #003B5C;
+    text-transform: uppercase;
+}
+
 
 /*
-    Général
+    Décoration
 */
 line {
     /*Les couleurs*/
@@ -35,42 +78,6 @@ line {
     /*Les positions*/
     /*Autre*/
 }
-body{
-    margin: 0px;
-    font-family: HK-Grotesk-Regular;
-}
-article, aside, footer, header, nav, section, main {
-    display: block;
-    box-sizing: inherit;
-}
-a{
-    color: black;
-    text-decoration: none;
-}
-
-h1 {
-    text-align: center;
-}   
-h2 {
-    color: #003B5C;
-}
-
-ul {
-    list-style: none;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-li {
-    display: inline-block;
-    margin: 0px 15px;
-}
-div {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
 /*
     Header
 */
