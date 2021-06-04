@@ -1,13 +1,15 @@
 /*
     Général
 */
+* {
+    box-sizing: inherit;
+}
 body {
     margin: 0px;
     font-family: HK-Grotesk-Regular;
 }
-article, aside, footer, header, nav, section, main {
+footer, header, nav, section, main {
     display: block;
-    box-sizing: inherit;
 }
 div {
     background-repeat: no-repeat;
@@ -62,9 +64,12 @@ h4 {
 }
 a {
     color: #003B5C;
+    text-decoration: none;
     text-transform: uppercase;
 }
-
+ul {
+    list-style: none;
+}
 
 /*
     Décoration
