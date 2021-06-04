@@ -145,6 +145,37 @@ nav {
     Main
 */
 
+.col {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.article {
+    box-sizing: border-box;
+    padding: 0 .75rem;
+    min-height: 1px;
+    float: left;
+    margin-bottom: 5%;
+}
+.first__img {
+    width: 100%;
+    max-width: 46rem;
+    height: auto;
+    display: block;
+}
+.separateur {
+    align-items: center;
+    width: 100%;
+}
+.sep {
+    height: 1px;
+    overflow: hidden;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+}
+.box {
+    border : solid black 1px;
+}
 
 .newsletter {
     background-image: url('./assets/img/NEWSMETTER.png');
@@ -241,3 +272,40 @@ footer {
 /* 
     Autre
 */
+.burger__menu {
+    width: 50px;
+    height: 25px;
+    position: relative;
+}
+
+.burger__menu .line {
+    background: black;
+    height: 1px;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    transition: 0.3s all;
+}
+
+.burger__menu .line:last-of-type {
+    bottom: 0%;
+}
+
+.burger__menu .line:nth-of-type(2) {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.burger__menu.active .line:first-of-type {
+    transform: rotate( 45deg) translateY(50%);
+    top: 50%;
+}
+
+.burger__menu.active .line:nth-of-type(2) {
+    opacity: 0;
+}
+
+.burger__menu.active .line:last-of-type {
+    transform: rotate( -45deg) translateY(-50%);
+    top: 50%;
+}
